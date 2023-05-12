@@ -1,0 +1,189 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:black
+}
+
+.backgr{
+    height:50vh;
+    width:100%;
+    background-image:url(./images/hey.webp);
+
+
+}
+.backgr h1{
+    text-align: center;
+    color:transparent;
+    
+    font-family: 'Yesteryear', cursive;
+    padding-top:100px;
+    font-size:100px;
+     background:  linear-gradient(90deg,#3a86ff,#8338ec,#ff006e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+
+}
+
+.planets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.planets p{
+    text-align: center;
+    font-size:30px;
+    color:#ffe5d9;
+    padding-top:60px;
+    padding-left:100px;
+    padding-bottom:80px;
+    
+}
+.mercury, .venus, .earth, .mars, .jupiter, .saturn, .uranus, .neptune{
+    margin-top: 50px;
+    width:45%;
+    height:50%;
+    box-sizing: border-box;
+    border:2px solid tomato;
+    color: white;
+    text-align:right;
+    font-size:20px;
+
+    
+
+}
+
+
+.mercury ul, .venus ul, .earth ul, .mars ul, .jupiter ul, .saturn ul, .uranus ul, .neptune ul{
+    list-style:circle;
+    text-align: left;
+    font-size:23px;
+
+}
+.mercury h2, .venus h2, .earth h2, .mars h2, .jupiter h2, .saturn h2, .uranus h2, .neptune h2{
+    text-align: center;
+    color:#ffd6ff;
+    margin-top:5px;
+}
+.mercury a, .venus a, .earth a, .mars a, .jupiter a, .saturn a, .uranus a, .neptune a{
+
+font-size:25px;
+    text-decoration:none;
+    color:#8093F1;
+    font-weight:bolder;
+    transition:all 0.5s;
+    
+    padding: 100px;
+
+}
+
+.mercury a:hover, .venus a:hover, .earth a:hover, .mars a:hover, .jupiter a:hover, .saturn a:hover, .uranus a:hover, .neptune a:hover{
+    color:turquoise;
+font-size:28px;
+
+}
+
+.mercury img, .venus img, .earth img, .mars img, .jupiter img, .saturn img, .uranus img, .neptune img{
+float:left;
+margin-right:22px;
+}
+
+
+/*  
+.earth{
+    position:absolute;
+    top:1200px;
+    width:45%;
+    height:45%;
+    box-sizing: border-box;
+    border:2px solid tomato;
+    color: white;
+    text-align:right;
+    font-size:20px;
+    margin-left:14px;
+}
+.earth ul{
+    list-style:circle;
+    text-align: left;
+    font-size:23px;
+}
+.earth h2{
+    text-align: center;
+    color:lightgreen;
+    margin-top:5px;
+}
+.earth a{
+text-align:right;
+font-size:25px;
+    text-decoration:none;
+    color:#8093F1;
+    font-weight:bolder;
+    transition:all 0.5s;
+    padding-right:60px;
+
+}
+
+.earth a:hover{
+    color:turquoise;
+font-size:28px;
+
+margin-left:14px;
+}
+
+.earth img{
+float:left;
+margin-right:22px;
+}
+
+.mars{
+    width:45%;
+    height:45%;
+    box-sizing: border-box;
+    border:2px solid tomato;
+    color: white;
+    text-align:right;
+    font-size:25px;
+    margin-left:54%;
+    margin-right:0;
+    margin-top:0;
+    position: absolute;
+    top:1200px;
+ }
+ .mars img{
+    float:left;
+    margin-right:22px;
+    padding-top:23px;
+}
+.mars ul{
+    list-style:circle;
+    text-align: left;
+    font-size:23px;
+}
+.mars h2{
+    text-align: center;
+    color:lightgreen;
+    margin-top:5px;
+}
+.mars a{
+text-align:right;
+font-size:25px;
+    text-decoration:none;
+    color:#8093F1;
+    font-weight:bolder;
+    transition:all 0.5s;
+    padding-right:60px;
+
+}
+
+
+
+.mars a:hover{
+    color:turquoise;
+font-size:28px;
+
+} */
