@@ -33,12 +33,14 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 10px;
     
 }
 .planets p{
+    margin-left: 70px;
     text-align: center;
-    font-size:30px;
-    color:#ffe5d9;
+    font-size:40px;
+    color:cornsilk;
     padding-top:60px;
     padding-left:100px;
     padding-bottom:80px;
@@ -67,17 +69,16 @@ padding: 15px;
 }
 .mercury h2, .venus h2, .earth h2, .mars h2, .jupiter h2, .saturn h2, .uranus h2, .neptune h2{
     text-align: center;
-    color:#8F43EE;
+    color:#ff006e;
     margin-top:5px;
 }
 .mercury a, .venus a, .earth a, .mars a, .jupiter a, .saturn a, .uranus a, .neptune a{
 
 font-size:25px;
     text-decoration:none;
-    color:#8F43EE;
+    color:#9772FB;
     font-weight:bolder;
     transition:all 0.5s;
-    
     padding: 100px;
 
 }
@@ -93,97 +94,16 @@ float:left;
 margin-right:22px;
 }
 
-
-/*  
-.earth{
-    position:absolute;
-    top:1200px;
-    width:45%;
-    height:45%;
-    box-sizing: border-box;
-    border:2px solid tomato;
-    color: white;
-    text-align:right;
-    font-size:20px;
-    margin-left:14px;
-}
-.earth ul{
-    list-style:circle;
-    text-align: left;
-    font-size:23px;
-}
-.earth h2{
-    text-align: center;
-    color:lightgreen;
-    margin-top:5px;
-}
-.earth a{
-text-align:right;
-font-size:25px;
-    text-decoration:none;
-    color:#8093F1;
-    font-weight:bolder;
-    transition:all 0.5s;
-    padding-right:60px;
+/* .mars img{
+    width: 200px;
+    height: 200px;
 
 }
-
-.earth a:hover{
-    color:turquoise;
-font-size:28px;
-
-margin-left:14px;
+.uranus img{
+    padding-bottom: 30px;
 }
 
-.earth img{
-float:left;
-margin-right:22px;
-}
-
-.mars{
-    width:45%;
-    height:45%;
-    box-sizing: border-box;
-    border:2px solid tomato;
-    color: white;
-    text-align:right;
-    font-size:25px;
-    margin-left:54%;
-    margin-right:0;
-    margin-top:0;
-    position: absolute;
-    top:1200px;
- }
- .mars img{
-    float:left;
-    margin-right:22px;
-    padding-top:23px;
-}
-.mars ul{
-    list-style:circle;
-    text-align: left;
-    font-size:23px;
-}
-.mars h2{
-    text-align: center;
-    color:lightgreen;
-    margin-top:5px;
-}
-.mars a{
-text-align:right;
-font-size:25px;
-    text-decoration:none;
-    color:#8093F1;
-    font-weight:bolder;
-    transition:all 0.5s;
-    padding-right:60px;
-
-}
-
-
-
-.mars a:hover{
-    color:turquoise;
-font-size:28px;
-
+.venus img{
+    padding-bottom: 30px;
 } */
+
