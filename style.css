@@ -49,11 +49,11 @@ body{
     width:45%;
     height:50%;
     box-sizing: border-box;
-    border:2px solid tomato;
+    border:2px solid #ff006e;
     color: white;
     text-align:right;
     font-size:20px;
-
+padding: 15px;
     
 
 }
@@ -67,14 +67,14 @@ body{
 }
 .mercury h2, .venus h2, .earth h2, .mars h2, .jupiter h2, .saturn h2, .uranus h2, .neptune h2{
     text-align: center;
-    color:#ffd6ff;
+    color:#8F43EE;
     margin-top:5px;
 }
 .mercury a, .venus a, .earth a, .mars a, .jupiter a, .saturn a, .uranus a, .neptune a{
 
 font-size:25px;
     text-decoration:none;
-    color:#8093F1;
+    color:#8F43EE;
     font-weight:bolder;
     transition:all 0.5s;
     
