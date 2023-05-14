@@ -80,6 +80,7 @@ font-size:25px;
     font-weight:bolder;
     transition:all 0.5s;
     padding: 100px;
+    
 
 }
 
@@ -92,18 +93,99 @@ font-size:28px;
 .mercury img, .venus img, .earth img, .mars img, .jupiter img, .saturn img, .uranus img, .neptune img{
 float:left;
 margin-right:22px;
-}
-
-/* .mars img{
-    width: 200px;
-    height: 200px;
 
 }
-.uranus img{
-    padding-bottom: 30px;
+
+
+/* Previous CSS code */
+
+@media (max-width: 767px) {
+    /* Small screens */
+    body {
+        font-size: 14px;
+    }
+
+    .backgr h1 {
+        font-size: 60px;
+    }
+
+    .planets {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .planets p {
+        font-size: 30px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .mercury,
+    .venus,
+    .earth,
+    .mars,
+    .jupiter,
+    .saturn,
+    .uranus,
+    .neptune {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .mercury h2,
+    .venus h2,
+    .earth h2,
+    .mars h2,
+    .jupiter h2,
+    .saturn h2,
+    .uranus h2,
+    .neptune h2 {
+        font-size: 24px;
+    }
+
+    .mercury ul,
+    .venus ul,
+    .earth ul,
+    .mars ul,
+    .jupiter ul,
+    .saturn ul,
+    .uranus ul,
+    .neptune ul {
+        font-size: 16px;
+    }
+
+    .mercury a,
+    .venus a,
+    .earth a,
+    .mars a,
+    .jupiter a,
+    .saturn a,
+    .uranus a,
+    .neptune a {
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+
+    .mercury a:hover,
+    .venus a:hover,
+    .earth a:hover,
+    .mars a:hover,
+    .jupiter a:hover,
+    .saturn a:hover,
+    .uranus a:hover,
+    .neptune a:hover {
+        font-size: 21px;
+        padding: 8px 15px;
+    }
+
+    .mercury img,
+    .venus img,
+    .earth img,
+    .mars img,
+    .jupiter img,
+    .saturn img,
+    .uranus img,
+    .neptune img {
+        margin-right: 10px;
+    }
 }
-
-.venus img{
-    padding-bottom: 30px;
-} */
-
