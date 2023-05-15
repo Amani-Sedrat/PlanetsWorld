@@ -12,6 +12,7 @@ body{
     height:50vh;
     width:100%;
     background-image:url(./images/hey.webp);
+   
 
 
 }
@@ -97,10 +98,9 @@ margin-right:22px;
 }
 
 
-/* Previous CSS code */
 
 @media (max-width: 767px) {
-    /* Small screens */
+    
     body {
         font-size: 14px;
     }
@@ -177,6 +177,7 @@ margin-right:22px;
         font-size: 21px;
         padding: 8px 15px;
     }
+   
 
     .mercury img,
     .venus img,
