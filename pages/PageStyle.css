@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    background-image: url(../images/hey.webp);
+    color: white;
+
+}
+
+
+.title{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  
+
+}
+.center{
+
+  width: 33%;
+  height: 33%;
+  margin: 10px;
+}
+
+.mercury h1{
+    text-align: center;
+    padding: 40px;
+    padding-top: 80px;
+    font-size: 40px;
+    font-family: 'Yesteryear', cursive;
+    
+}
+
+.highlight{
+  color:transparent;
+  background:  linear-gradient(90deg,#6B42D1,#705EA9, #19A5C2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.article{
+    padding: 100px 100px 130px 130px;
+    font-size: 30px;
+    line-height: 50px;
+}
+.planet{
+
+  position: relative;
+  animation: float 3s ease-in-out infinite;
+  display: inline-block;
+
+}
+
+
+
+@keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+ 
+
+
+  
+
+
+
+  
+     
+      
+      @media (max-width: 767px) {
+        .mercury h1 {
+          font-size: 24px;
+          padding: 10px;
+          padding-top: 20px;
+        }
+      
+        .article {
+          padding: 30px;
+          font-size: 16px;
+          line-height: 24px;
+        }
+      
+        .planet img{
+
+          width:130px;
+          height: 130px;
+        }
+      
+      }
+      
