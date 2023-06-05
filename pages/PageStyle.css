@@ -26,7 +26,7 @@ body{
   margin: 10px;
 }
 
-.mercury h1{
+.planete h1{
     text-align: center;
     padding: 40px;
     padding-top: 80px;
@@ -35,13 +35,6 @@ body{
     
 }
 
-.highlight{
-  color:transparent;
-  background:  linear-gradient(90deg,#6B42D1,#705EA9, #19A5C2);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
-}
 
 .article{
     padding: 100px 100px 130px 130px;
@@ -81,7 +74,7 @@ body{
      
       
       @media (max-width: 767px) {
-        .mercury h1 {
+        .planete h1 {
           font-size: 24px;
           padding: 10px;
           padding-top: 20px;
